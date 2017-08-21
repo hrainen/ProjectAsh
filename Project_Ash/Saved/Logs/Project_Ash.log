@@ -211,3 +211,30 @@ LogInit: Object subsystem initialized
 [2017.08.21-19.41.26:261][  2]LogAssetRegistry: Asset discovery search completed in 55.0280 seconds
 [2017.08.21-19.41.26:263][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2017.08.21-19.41.26:263][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.08.21-19.49.12:150][623]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.21-19.52.07:250][543]LogSlate: Took 0.018821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.21-20.11.39:378][600]LogMetaData: Removing '/Game/DungeonGen/Sector.SKEL_Sector_C' ref from Metadata '/Game/DungeonGen/NewBlueprint.PackageMetaData'
+[2017.08.21-20.11.39:378][600]LogMetaData: Removing '/Game/DungeonGen/Sector.Sector_C' ref from Metadata '/Game/DungeonGen/NewBlueprint.PackageMetaData'
+[2017.08.21-20.11.39:452][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DungeonGen/Sector" FILE="../../../../../Unreal test/ProjectAsh/Project_Ash/Content/DungeonGen/Sector.uasset" SILENT=true
+[2017.08.21-20.11.39:570][600]LogSavePackage: Save=96.46ms
+[2017.08.21-20.11.39:570][600]LogSavePackage: Moving '../../../../../Unreal test/ProjectAsh/Project_Ash/Saved/SectorFAD045BE42B959C96D419F9B12794776.tmp' to '../../../../../Unreal test/ProjectAsh/Project_Ash/Content/DungeonGen/Sector.uasset'
+[2017.08.21-20.11.39:582][600]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal test/ProjectAsh/Project_Ash/Content/DungeonGen/Sector.uasset
+[2017.08.21-20.11.42:632][847]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.21-20.11.43:162][847]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 112 classes and 0 folders.
+[2017.08.21-20.12.09:851][711]LogSlate: Took 0.015066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.21-20.13.40:294][739]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.21-20.13.49:342][766]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.035
+[2017.08.21-20.13.49:364][766]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DungeonGen/Sector] ([1] browsable assets)...
+[2017.08.21-20.13.49:376][766]OBJ SavePackage: Finished generating thumbnails for package [/Game/DungeonGen/Sector]
+[2017.08.21-20.13.49:376][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DungeonGen/Sector" FILE="../../../../../Unreal test/ProjectAsh/Project_Ash/Saved/Autosaves/Game/DungeonGen/Sector_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.21-20.13.49:392][766]LogSavePackage: Save=11.30ms
+[2017.08.21-20.13.49:392][766]LogSavePackage: Moving '../../../../../Unreal test/ProjectAsh/Project_Ash/Saved/Sector_Auto16131DD51497166E6AF4E95956D621495.tmp' to '../../../../../Unreal test/ProjectAsh/Project_Ash/Saved/Autosaves/Game/DungeonGen/Sector_Auto1.uasset'
+[2017.08.21-20.13.49:393][766]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal test/ProjectAsh/Project_Ash/Saved/Autosaves/Game/DungeonGen/Sector_Auto1.uasset
+[2017.08.21-20.13.49:393][766]LogFileHelpers: Auto-saving content packages took 0.049
+[2017.08.21-20.14.16:384][401]LogEditorTransaction: Undo Add Variable
+[2017.08.21-20.17.34:222][267]BlueprintLog: New page: Compile Sector
+[2017.08.21-20.17.39:936][898]BlueprintLog: New page: Compile Sector
+[2017.08.21-20.17.41:401][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DungeonGen/Sector" FILE="../../../../../Unreal test/ProjectAsh/Project_Ash/Content/DungeonGen/Sector.uasset" SILENT=true
+[2017.08.21-20.17.41:412][ 53]LogSavePackage: Save=9.36ms
+[2017.08.21-20.17.41:412][ 53]LogSavePackage: Moving '../../../../../Unreal test/ProjectAsh/Project_Ash/Saved/SectorB5305A434C99DCC61471BE9994C78B39.tmp' to '../../../../../Unreal test/ProjectAsh/Project_Ash/Content/DungeonGen/Sector.uasset'
+[2017.08.21-20.17.41:414][ 53]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal test/ProjectAsh/Project_Ash/Content/DungeonGen/Sector.uasset
