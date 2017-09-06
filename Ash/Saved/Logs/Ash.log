@@ -1,9 +1,9 @@
-﻿Log file open, 08/26/17 12:10:30
+﻿Log file open, 09/05/17 16:30:41
 LogInit:Display: Running engine for game: Ash
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-841152777) SRandInit(-841152777).
-LogTaskGraph: Started task graph with 5 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.110083
+LogInit:Display: RandInit(79577539) SRandInit(79577539).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.112524
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -46,164 +46,718 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
 LogInit: Command line: -EpicPortal 
-LogInit: Base directory: E:/unreal 416 vers/UE_4.16/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.26-19.10.31:001][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.26-19.10.31:001][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.26-19.10.31:018][  0]LogInit: Computer: THEBEHEMOTH
-[2017.08.26-19.10.31:018][  0]LogInit: User: Nikolai
-[2017.08.26-19.10.31:018][  0]LogInit: CPU Page size=4096, Cores=3
-[2017.08.26-19.10.31:018][  0]LogInit: High frequency timer resolution =3.711083 MHz
-[2017.08.26-19.10.31:018][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.08.26-19.10.31:018][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.26-19.10.31:018][  0]LogMemory: Process Physical Memory: 273.13 MB used, 273.13 MB peak
-[2017.08.26-19.10.31:018][  0]LogMemory: Process Virtual Memory: 261.21 MB used, 261.21 MB peak
-[2017.08.26-19.10.31:018][  0]LogMemory: Physical Memory: 4061.91 MB used,  4078.14 MB free, 8140.05 MB total
-[2017.08.26-19.10.31:018][  0]LogMemory: Virtual Memory: 619.13 MB used,  4078.14 MB free, 8388608.00 MB total
-[2017.08.26-19.10.31:112][  0]LogInit: Using OS detected language (en-US).
-[2017.08.26-19.10.31:112][  0]LogInit: Using OS detected locale (en-US).
-[2017.08.26-19.10.31:115][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.08.26-19.10.32:447][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.26-19.10.32:458][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7800 Series' (Feature Level 11_0)
-[2017.08.26-19.10.32:458][  0]LogD3D11RHI:       2026/0/3814 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2017.08.26-19.10.32:458][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.26-19.10.32:468][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.26-19.10.32:468][  0]LogD3D11RHI:     GPU DeviceId: 0x6818 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.26-19.10.32:468][  0]LogWindows: EnumDisplayDevices:
-[2017.08.26-19.10.32:468][  0]LogWindows:    0. 'AMD Radeon HD 7800 Series' (P:0 D:1)
-[2017.08.26-19.10.32:469][  0]LogWindows:    1. 'AMD Radeon HD 7800 Series' (P:1 D:1)
-[2017.08.26-19.10.32:469][  0]LogWindows:    2. 'AMD Radeon HD 7800 Series' (P:0 D:0)
-[2017.08.26-19.10.32:470][  0]LogWindows:    3. 'AMD Radeon HD 7800 Series' (P:0 D:0)
-[2017.08.26-19.10.32:470][  0]LogWindows:    4. 'AMD Radeon HD 7800 Series' (P:0 D:0)
-[2017.08.26-19.10.32:471][  0]LogWindows:    5. 'AMD Radeon HD 7800 Series' (P:0 D:0)
-[2017.08.26-19.10.32:471][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
-[2017.08.26-19.10.32:471][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.08.26-19.10.32:472][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.08.26-19.10.32:472][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
-[2017.08.26-19.10.32:472][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7800 Series
-[2017.08.26-19.10.32:472][  0]LogD3D11RHI:   Driver Version: Crimson 16.7.3 (internal:16.300.2311.0, unified:16.300.2311.0)
-[2017.08.26-19.10.32:472][  0]LogD3D11RHI:      Driver Date: 7-18-2016
-[2017.08.26-19.10.32:472][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.26-19.10.32:524][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.26-19.10.32:536][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.08.26-19.10.32:537][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../Unreal test/ProjectAsh/Ash/Intermediate/Shaders/WorkingDirectory/45280/).
-[2017.08.26-19.10.32:537][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nikolai/AppData/Local/Temp/UnrealShaderWorkingDir/0906595248570D6FB5980F96536DAB0B/'.
-[2017.08.26-19.10.32:537][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.26-19.10.34:276][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.26-19.10.34:346][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.26-19.10.34:417][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.26-19.10.34:491][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.26-19.10.34:562][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.26-19.10.34:635][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.26-19.10.34:711][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.26-19.10.34:779][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.26-19.10.34:840][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.26-19.10.34:910][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.26-19.10.34:979][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.26-19.10.35:046][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.26-19.10.35:116][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.26-19.10.35:183][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.26-19.10.35:254][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.26-19.10.35:396][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.26-19.10.35:396][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.26-19.10.35:450][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.26-19.10.35:567][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.26-19.10.35:609][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.26-19.10.35:676][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.26-19.10.35:747][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.26-19.10.35:820][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.26-19.10.35:889][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.26-19.10.35:889][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.26-19.10.36:536][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.26-19.10.36:740][  0]LogDerivedDataCache: Loaded boot cache 0.20s 90MB C:/Users/Nikolai/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.26-19.10.36:741][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nikolai/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.08.26-19.10.36:741][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal test/ProjectAsh/Ash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.26-19.10.36:741][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.26-19.10.36:741][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal test/ProjectAsh/Ash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.26-19.10.36:741][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.26-19.10.36:769][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.26-19.10.36:782][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nikolai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.26-19.10.36:799][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.26-19.10.36:800][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.26-19.10.36:800][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.26-19.10.36:800][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.26-19.10.37:376][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.26-19.10.37:379][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.26-19.10.37:693][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.26-19.10.37:750][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.26-19.10.37:813][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.26-19.10.37:813][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.26-19.10.37:813][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.26-19.10.38:590][  0]LogNetVersion: Ash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1656355737)
-[2017.08.26-19.10.38:662][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2017.08.26-19.10.38:734][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.040553 seconds
-[2017.08.26-19.10.38:742][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.08.26-19.10.38:742][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.08.26-19.10.38:743][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.26-19.10.38:823][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.26-19.10.42:038][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.26-19.10.42:083][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.26-19.10.42:772][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.26-19.10.43:295][  0]SourceControl: Info Source control is disabled
-[2017.08.26-19.10.43:356][  0]SourceControl: Info Source control is disabled
-[2017.08.26-19.10.43:417][  0]SourceControl: Info Source control is disabled
-[2017.08.26-19.10.43:483][  0]SourceControl: Info Source control is disabled
-[2017.08.26-19.10.44:460][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.26-19.10.45:266][  0]LogEngine: Initializing Engine...
-[2017.08.26-19.10.45:287][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2017.08.26-19.10.45:610][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.26-19.10.45:611][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.26-19.10.45:785][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.26-19.10.45:809][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.26-19.10.45:829][  0]LogInit: FAudioDevice initialized.
-[2017.08.26-19.10.45:929][  0]LogDerivedDataCache: Saved boot cache 0.10s 90MB C:/Users/Nikolai/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.26-19.10.45:976][  0]LogInit: Texture streaming: Enabled
-[2017.08.26-19.10.46:096][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.26-19.10.46:415][  0]LogInit: Transaction tracking system initialized
-[2017.08.26-19.10.46:823][  0]BlueprintLog: New page: Editor Load
-[2017.08.26-19.10.48:131][  0]LocalizationService: Info Localization service is disabled
-[2017.08.26-19.10.49:057][  0]LogConsoleResponse:Display: 
-[2017.08.26-19.10.49:287][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.26-19.10.49:287][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.26-19.10.50:593][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal test/ProjectAsh/Ash/Content/' took 0.02s
-[2017.08.26-19.10.50:654][  0]SourceControl: Info Source control is disabled
-[2017.08.26-19.10.50:654][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.26-19.10.50:655][  0]LightingResults: New page: Lighting Build
-[2017.08.26-19.10.50:710][  0]MapCheck: New page: Map Check
-[2017.08.26-19.10.50:710][  0]LightingResults: New page: Lighting Build
-[2017.08.26-19.10.50:990][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.08.26-19.10.50:991][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.08.26-19.10.50:996][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.26-19.10.51:058][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.26-19.10.51:113][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.953ms to complete.
-[2017.08.26-19.10.51:113][  0]LogFileHelpers: Loading map 'Template_Default' took 0.459
-[2017.08.26-19.10.51:623][  0]LogCollectionManager: Loaded 0 collections in 0.001954 seconds
-[2017.08.26-19.10.51:842][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal test/ProjectAsh/Ash/Saved/Collections/' took 0.01s
-[2017.08.26-19.10.51:842][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal test/ProjectAsh/Ash/Content/Developers/Nikolai/Collections/' took 0.01s
-[2017.08.26-19.10.51:842][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal test/ProjectAsh/Ash/Content/Collections/' took 0.01s
-[2017.08.26-19.10.51:842][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.26-19.10.51:896][  0]LogContentBrowser: Native class hierarchy populated in 0.0520 seconds. Added 2329 classes and 491 folders.
-[2017.08.26-19.10.52:016][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.08.26-19.10.54:530][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.08.26-19.10.55:320][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.08.26-19.10.55:885][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.26-19.10.55:945][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.26-19.10.55:948][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.26-19.10.55:967][  0]LogSlate: Took 0.017809 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.26-19.10.56:110][  0]LogSlate: Took 0.029043 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2017.08.26-19.10.56:762][  0]LogRenderer: Reallocating scene render targets to support 1128x692 NumSamples 1 (Frame:1).
-[2017.08.26-19.10.57:745][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.08.26-19.10.57:826][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.08.26-19.10.57:828][  0]LogLoad: (Engine Initialization) Total time: 29.07 seconds
-[2017.08.26-19.10.57:828][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
-[2017.08.26-19.10.57:828][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.08.26-19.10.57:828][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.08.26-19.10.57:838][  0]LogOcInput: OculusInput pre-init called
-[2017.08.26-19.10.57:838][  0]LogHMD: Starting GearVRController plugin
-[2017.08.26-19.10.57:909][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.26-19.11.00:200][229]LogAssetRegistry: Asset discovery search completed in 21.5590 seconds
-[2017.08.26-19.11.00:203][229]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.08.26-19.11.00:203][229]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000216 seconds (updated 0 objects)
-[2017.08.26-19.11.01:991][380]LogSlate: Took 0.012937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-23.30.41:925][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.05-23.30.41:925][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.05-23.30.41:942][  0]LogInit: Computer: DESKTOP-HKS75NM
+[2017.09.05-23.30.41:942][  0]LogInit: User: StevenStrickland
+[2017.09.05-23.30.41:943][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.05-23.30.41:943][  0]LogInit: High frequency timer resolution =3.924237 MHz
+[2017.09.05-23.30.41:943][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.09.05-23.30.41:943][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.05-23.30.41:943][  0]LogMemory: Process Physical Memory: 271.78 MB used, 271.78 MB peak
+[2017.09.05-23.30.41:943][  0]LogMemory: Process Virtual Memory: 260.84 MB used, 260.84 MB peak
+[2017.09.05-23.30.41:943][  0]LogMemory: Physical Memory: 7040.04 MB used,  9308.60 MB free, 16348.63 MB total
+[2017.09.05-23.30.41:943][  0]LogMemory: Virtual Memory: 643.03 MB used,  9308.60 MB free, 134217728.00 MB total
+[2017.09.05-23.30.42:072][  0]LogInit: Using OS detected language (en-US).
+[2017.09.05-23.30.42:072][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.05-23.30.42:076][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.05-23.30.43:277][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.05-23.30.43:826][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.09.05-23.30.43:826][  0]LogD3D11RHI:       4060/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.05-23.30.43:828][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.05-23.30.43:828][  0]LogD3D11RHI:       0/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.05-23.30.43:828][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.05-23.30.43:838][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.05-23.30.43:838][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.05-23.30.43:838][  0]LogWindows: EnumDisplayDevices:
+[2017.09.05-23.30.43:838][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2017.09.05-23.30.43:838][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.09.05-23.30.43:838][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.09.05-23.30.43:839][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.09.05-23.30.43:839][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.05-23.30.43:839][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.09.05-23.30.43:839][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.09.05-23.30.43:839][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.09.05-23.30.43:839][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.05-23.30.44:386][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.05-23.30.44:427][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.05-23.30.44:479][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Intermediate/Shaders/WorkingDirectory/1896/).
+[2017.09.05-23.30.44:479][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Steven Strickland/AppData/Local/Temp/UnrealShaderWorkingDir/1A68AFF74166521927B3F4A773DB963D/'.
+[2017.09.05-23.30.44:479][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.05-23.30.46:039][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.05-23.30.46:125][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.05-23.30.46:208][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.05-23.30.46:295][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.05-23.30.46:382][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.05-23.30.46:469][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.05-23.30.46:551][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.05-23.30.46:640][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.05-23.30.46:724][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.05-23.30.46:810][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.05-23.30.46:889][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.05-23.30.46:967][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.05-23.30.47:054][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.05-23.30.47:136][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.05-23.30.47:219][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.05-23.30.47:382][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.05-23.30.47:382][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.05-23.30.47:450][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.05-23.30.47:590][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.05-23.30.47:643][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.05-23.30.47:721][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.05-23.30.47:802][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.05-23.30.47:880][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.05-23.30.47:957][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.05-23.30.47:957][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.05-23.30.48:786][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.05-23.30.48:959][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/Steven Strickland/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.05-23.30.48:959][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Steven Strickland/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.05-23.30.48:959][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.05-23.30.48:959][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.05-23.30.48:959][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.05-23.30.48:959][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.05-23.30.48:979][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.05-23.30.48:992][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Steven Strickland/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.05-23.30.49:008][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.05-23.30.49:008][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.05-23.30.49:009][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.05-23.30.49:009][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.05-23.30.49:463][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.05-23.30.49:585][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.05-23.30.49:822][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.05-23.30.49:897][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.05-23.30.49:976][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.05-23.30.49:976][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.05-23.30.49:976][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.05-23.30.50:792][  0]LogNetVersion: Ash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1656355737)
+[2017.09.05-23.30.50:878][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
+[2017.09.05-23.30.50:971][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.049173 seconds
+[2017.09.05-23.30.50:979][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.05-23.30.50:979][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.05-23.30.50:979][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.05-23.30.51:088][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.05-23.30.54:728][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.05-23.30.54:786][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.05-23.30.55:615][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.05-23.30.56:253][  0]SourceControl: Info Source control is disabled
+[2017.09.05-23.30.56:304][  0]SourceControl: Info Source control is disabled
+[2017.09.05-23.30.56:386][  0]SourceControl: Info Source control is disabled
+[2017.09.05-23.30.56:470][  0]SourceControl: Info Source control is disabled
+[2017.09.05-23.30.57:629][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.05-23.30.58:594][  0]LogEngine: Initializing Engine...
+[2017.09.05-23.30.58:595][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.05-23.30.58:867][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.05-23.30.58:867][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.05-23.30.59:078][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.05-23.30.59:096][  0]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-23.30.59:121][  0]LogInit: FAudioDevice initialized.
+[2017.09.05-23.30.59:201][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/Steven Strickland/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.05-23.30.59:234][  0]LogInit: Texture streaming: Enabled
+[2017.09.05-23.30.59:402][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.05-23.30.59:776][  0]LogInit: Transaction tracking system initialized
+[2017.09.05-23.31.00:305][  0]BlueprintLog: New page: Editor Load
+[2017.09.05-23.31.01:886][  0]LocalizationService: Info Localization service is disabled
+[2017.09.05-23.31.03:022][  0]LogConsoleResponse:Display: 
+[2017.09.05-23.31.03:214][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/' took 0.01s
+[2017.09.05-23.31.03:214][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.05-23.31.03:215][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.05-23.31.04:925][  0]SourceControl: Info Source control is disabled
+[2017.09.05-23.31.04:926][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.05-23.31.04:926][  0]LightingResults: New page: Lighting Build
+[2017.09.05-23.31.05:000][  0]MapCheck: New page: Map Check
+[2017.09.05-23.31.05:000][  0]LightingResults: New page: Lighting Build
+[2017.09.05-23.31.05:294][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.05-23.31.05:294][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.09.05-23.31.05:300][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.05-23.31.05:326][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.05-23.31.05:393][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.3ms to complete.
+[2017.09.05-23.31.05:393][  0]LogFileHelpers: Loading map 'Template_Default' took 0.468
+[2017.09.05-23.31.05:616][  0]LogCollectionManager: Loaded 0 collections in 0.002139 seconds
+[2017.09.05-23.31.05:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Collections/' took 0.01s
+[2017.09.05-23.31.05:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Developers/StevenStrickland/Collections/' took 0.01s
+[2017.09.05-23.31.05:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Collections/' took 0.01s
+[2017.09.05-23.31.05:742][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.09.05-23.31.05:756][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2329 classes and 491 folders.
+[2017.09.05-23.31.05:870][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.09.05-23.31.06:230][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.05-23.31.06:308][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.05-23.31.06:373][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.05-23.31.06:380][  0]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.05-23.31.06:382][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.05-23.31.06:394][  0]LogSlate: Took 0.005895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.05-23.31.06:580][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:1).
+[2017.09.05-23.31.06:736][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.05-23.31.06:835][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.05-23.31.06:836][  0]LogLoad: (Engine Initialization) Total time: 27.28 seconds
+[2017.09.05-23.31.06:836][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.09.05-23.31.06:836][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.05-23.31.06:847][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.05-23.31.06:848][  0]LogOcInput: OculusInput pre-init called
+[2017.09.05-23.31.06:848][  0]LogHMD: Starting GearVRController plugin
+[2017.09.05-23.31.06:870][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.05-23.31.06:941][  1]LogAssetRegistry: Asset discovery search completed in 16.0851 seconds
+[2017.09.05-23.31.06:943][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.05-23.31.06:943][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2017.09.05-23.31.12:776][638]LogSlate: Took 0.005444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-23.31.13:370][638]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.09.05-23.31.14:159][638]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.05-23.31.14:271][638]LogSlate: Took 0.004644 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.05-23.31.14:570][639]LogSlate: Took 0.004505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.05-23.33.26:550][ 15]BlueprintLog: New page: Compile Sector
+[2017.09.05-23.33.26:639][ 15]LogBlueprint:Error: [Compiler Sector] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.09.05-23.33.26:639][ 15]LogBlueprint:Error: [Compiler Sector] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.09.05-23.33.26:919][ 15]BlueprintEditorCompileResults:Error: Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.09.05-23.33.26:919][ 15]BlueprintEditorCompileResults:Error: Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.09.05-23.33.26:919][ 15]LogBlueprint:Warning: [Compiler Sector] Warning [0167.37] Compile of Sector failed. 2 Fatal Issue(s) 0 Warning(s) [in 368 ms] (/Game/Sector.Sector)
+[2017.09.05-23.33.28:774][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.05-23.33.29:235][164]LogSavePackage: Save=453.22ms
+[2017.09.05-23.33.29:235][164]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector1B9FA5374591619886B1AC9D224CFAC2.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.05-23.33.29:243][164]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.05-23.33.30:950][321]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error Could not find a function named "ToString" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  To String
+[2017.09.05-23.33.30:955][321]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0171.40] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 11 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.33.30:955][321]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0171.40] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.33.30:955][321]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0171.40] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.33.30:958][321]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error Could not find a function named "ToString" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  To String
+[2017.09.05-23.33.30:964][321]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0171.41] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 7 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.33.30:964][321]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0171.41] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.33.30:964][321]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0171.41] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.33.30:977][321]LogAIModule: Creating AISystem for world LevelBP
+[2017.09.05-23.33.31:010][321]Cmd: MAP LOAD FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.05-23.33.31:010][321]LightingResults: New page: Lighting Build
+[2017.09.05-23.33.31:011][321]LoadErrors: New page: Loading map: LevelBP.umap
+[2017.09.05-23.33.31:011][321]MapCheck: New page: Map Check
+[2017.09.05-23.33.31:011][321]LightingResults: New page: Lighting Build
+[2017.09.05-23.33.31:038][321]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.05-23.33.31:108][321]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.05-23.33.31:184][321]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.548ms to complete.
+[2017.09.05-23.33.31:185][321]LogFileHelpers: Loading map 'LevelBP' took 0.177
+[2017.09.05-23.33.44:249][822]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-23.34.01:038][752]BlueprintLog: New page: Compile LevelBP
+[2017.09.05-23.34.01:045][752]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error Could not find a function named "ToString" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  To String
+[2017.09.05-23.34.01:264][752]BlueprintEditorCompileResults:Error: Error Could not find a function named "ToString" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  To String
+[2017.09.05-23.34.01:264][752]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0201.71] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 226 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.01:958][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.05-23.34.01:994][820]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error Could not find a function named "ToString" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  To String
+[2017.09.05-23.34.02:185][820]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0202.63] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 193 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.02:186][820]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0202.63] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.02:186][820]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0202.63] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.02:186][820]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0202.63] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.02:189][820]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0202.64] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 4 Warning(s) [in 3 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.02:189][820]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0202.64] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.02:272][820]LogSavePackage: Save=284.36ms
+[2017.09.05-23.34.02:272][820]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP44524757438AFCD96AAADBA3220B359E.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.05-23.34.02:278][820]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.05-23.34.02:315][820]LogFileHelpers: Saving map 'LevelBP' took 0.434
+[2017.09.05-23.34.18:136][507]BlueprintLog: New page: Compile LevelBP
+[2017.09.05-23.34.18:140][507]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error Pin  Root Sector  named RootSector doesn't match any parameters of function InitializeWorld
+[2017.09.05-23.34.18:362][507]BlueprintEditorCompileResults:Error: Error Pin  Root Sector  named RootSector doesn't match any parameters of function InitializeWorld
+[2017.09.05-23.34.18:362][507]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0218.81] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 226 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.19:072][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.05-23.34.19:116][576]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error Pin  Root Sector  named RootSector doesn't match any parameters of function InitializeWorld
+[2017.09.05-23.34.19:309][576]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0219.76] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 195 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.19:309][576]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0219.76] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.19:310][576]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0219.76] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.19:310][576]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0219.76] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.19:313][576]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0219.76] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.19:313][576]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [0219.76] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.05-23.34.19:373][576]LogSavePackage: Save=260.53ms
+[2017.09.05-23.34.19:373][576]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP112C96604BB4DFB0F09244B549267B69.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.05-23.34.19:379][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.05-23.34.19:414][576]LogFileHelpers: Saving map 'LevelBP' took 0.426
+[2017.09.05-23.36.08:241][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.05-23.36.08:656][822]LogSavePackage: Save=402.31ms
+[2017.09.05-23.36.08:656][822]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector88E3B82E406AC69BBCDB46A3A514AEBA.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.05-23.36.08:662][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.05-23.36.27:292][969]BlueprintLog: New page: Compile LevelBP
+[2017.09.05-23.36.28:155][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.05-23.36.28:329][ 44]LogSavePackage: Save=143.32ms
+[2017.09.05-23.36.28:329][ 44]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP0E7114E7415C4A0FB7416A8848BBB4AA.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.05-23.36.28:333][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.05-23.36.28:377][ 44]LogFileHelpers: Saving map 'LevelBP' took 0.297
+[2017.09.05-23.42.20:297][245]LogSlate: Took 0.004911 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.05-23.46.49:670][864]BlueprintLog: New page: Compile Sector
+[2017.09.05-23.46.49:741][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:742][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:742][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:742][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:742][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:742][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:742][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:743][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:743][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:743][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:744][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:744][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:744][864]LogBlueprint:Error: [Compiler Sector] Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetLeaf" in 'Sector_C'.
+Make sure 'Sector_C' has been compiled for  Set Leaf
+[2017.09.05-23.46.49:997][864]LogBlueprint:Warning: [Compiler Sector] Warning [0970.45] Compile of Sector failed. 13 Fatal Issue(s) 0 Warning(s) [in 327 ms] (/Game/Sector.Sector)
+[2017.09.05-23.46.52:973][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.05-23.46.53:390][108]LogSavePackage: Save=405.09ms
+[2017.09.05-23.46.53:390][108]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector3B140D9C486EA4D961FE918889A5C400.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.05-23.46.53:396][108]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.05-23.47.25:727][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.05-23.47.25:782][278]LogSavePackage: Save=50.80ms
+[2017.09.05-23.47.25:782][278]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector697C90E7475687380A8733B66CA50D33.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.05-23.47.25:786][278]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.05-23.47.26:414][350]BlueprintLog: New page: Compile Sector
+[2017.09.05-23.51.32:944][431]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelBP' took 0.027
+[2017.09.05-23.51.32:946][431]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sector] ([1] browsable assets)...
+[2017.09.05-23.51.32:946][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sector]
+[2017.09.05-23.51.32:985][431]LogSavePackage: Save=34.54ms
+[2017.09.05-23.51.32:985][431]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector_Auto1B6D0FF084D99FD2B5F406AB893153259.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto1.uasset'
+[2017.09.05-23.51.32:987][431]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto1.uasset
+[2017.09.05-23.51.32:987][431]LogFileHelpers: Auto-saving content packages took 0.042
+[2017.09.05-23.55.56:434][694]LogClass:Warning: Property Boundries of Boundries has a struct type mismatch (tag Box2D != prop Vector2D) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.09.05-23.56.10:369][342]LogClass:Warning: Type mismatch in Boundries of SKEL_Sector_C - Previous (StructProperty) Current(MapProperty) for package:  FObjectReader
+[2017.09.05-23.56.38:254][634]BlueprintLog: New page: Compile Sector
+[2017.09.05-23.56.38:258][634]LogClass:Warning: Type mismatch in Boundries of Sector_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.09.05-23.57.16:995][217]BlueprintLog: New page: Compile Sector
+[2017.09.05-23.58.45:105][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewUserDefinedStruct" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/NewUserDefinedStruct.uasset" SILENT=true
+[2017.09.05-23.58.45:115][405]LogSavePackage: Save=6.82ms
+[2017.09.05-23.58.45:115][405]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/NewUserDefinedStruct90EBDAB0480A3B3CB05431999BFF289D.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/NewUserDefinedStruct.uasset'
+[2017.09.05-23.58.45:118][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/NewUserDefinedStruct.uasset
+[2017.09.05-23.58.50:965][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.05-23.58.51:008][100]LogSavePackage: Save=27.81ms
+[2017.09.05-23.58.51:008][100]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/SectorB996FC8B424C12957C0120ACC9A388E2.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.05-23.58.51:013][100]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.05-23.59.15:093][948]LogMetaData: Removing '/Game/RoomBoundries.RoomBoundries' ref from Metadata '/Game/NewUserDefinedStruct.PackageMetaData'
+[2017.09.05-23.59.15:093][948]LogMetaData: Removing '/Game/RoomBoundries.RoomBoundries:Y2_11_2FBA187B499555B6E4DCE989803392C7' ref from Metadata '/Game/NewUserDefinedStruct.PackageMetaData'
+[2017.09.05-23.59.15:093][948]LogMetaData: Removing '/Game/RoomBoundries.RoomBoundries:Y1_10_0870F9C94DCDEBD7C6FD719832AB7472' ref from Metadata '/Game/NewUserDefinedStruct.PackageMetaData'
+[2017.09.05-23.59.15:093][948]LogMetaData: Removing '/Game/RoomBoundries.RoomBoundries:X2_9_7C5574354EB10FF35F9C2A8046EA0070' ref from Metadata '/Game/NewUserDefinedStruct.PackageMetaData'
+[2017.09.05-23.59.15:093][948]LogMetaData: Removing '/Game/RoomBoundries.RoomBoundries:X1_8_CD9E92D7402146BCD24DE8932CADF551' ref from Metadata '/Game/NewUserDefinedStruct.PackageMetaData'
+[2017.09.05-23.59.15:138][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBoundries" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset" SILENT=true
+[2017.09.05-23.59.15:148][948]LogSavePackage: Save=7.42ms
+[2017.09.05-23.59.15:148][948]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/RoomBoundriesC067EEE7447170A777DB40B40FD06628.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset'
+[2017.09.05-23.59.15:152][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset
+[2017.09.05-23.59.40:647][914]BlueprintLog: New page: Compile Sector
+[2017.09.05-23.59.40:651][914]LogClass:Warning: Type mismatch in Boundries of Sector_C - Previous (ArrayProperty) Current(StructProperty) for package:  FObjectReader
+[2017.09.06-00.00.30:274][805]BlueprintLog: New page: Compile Sector
+[2017.09.06-00.00.31:212][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-00.00.31:235][895]LogSavePackage: Save=18.94ms
+[2017.09.06-00.00.31:235][895]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector27E7DA92457506FF3450479258F143AC.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-00.00.31:239][895]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-00.00.32:889][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.00.33:070][ 76]LogSavePackage: Save=147.68ms
+[2017.09.06-00.00.33:070][ 76]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBPDCADEC984FC8C1BD6CDCE5A0DC2005BF.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.00.33:073][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.00.33:118][ 76]LogFileHelpers: Saving map 'LevelBP' took 0.303
+[2017.09.06-00.00.34:960][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBoundries" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset" SILENT=true
+[2017.09.06-00.00.34:973][291]LogSavePackage: Save=6.30ms
+[2017.09.06-00.00.34:973][291]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/RoomBoundries6DEEFE4E4FB612116D331DBA1519EDC7.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset'
+[2017.09.06-00.00.34:975][291]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset
+[2017.09.06-00.01.20:833][592]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.06-00.03.34:929][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.03.34:971][256]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.03.34:974][256]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.03.35:170][256]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [1975.62] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 204 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.03.35:170][256]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [1975.62] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.03.35:170][256]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [1975.62] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.03.35:170][256]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [1975.62] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.03.35:173][256]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [1975.62] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.03.35:173][256]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [1975.62] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.03.35:242][256]LogSavePackage: Save=281.08ms
+[2017.09.06-00.03.35:242][256]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP6094EE444353F9EE6FE4FD8F2F52B471.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.03.35:257][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.04.19:637][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBoundries" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset" SILENT=true
+[2017.09.06-00.04.19:652][554]LogSavePackage: Save=10.68ms
+[2017.09.06-00.04.19:652][554]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/RoomBoundriesCD25263B4DBDE581222732B04931EF8D.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset'
+[2017.09.06-00.04.19:656][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset
+[2017.09.06-00.05.10:488][485]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-00.05.10:497][485]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.05.10:497][485]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.05.10:719][485]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.05.10:719][485]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.05.10:720][485]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2071.17] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 231 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.05.12:040][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.05.12:079][629]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.05.12:079][629]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.05.12:270][629]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2072.72] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 194 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.05.12:270][629]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2072.72] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.05.12:270][629]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2072.72] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.05.12:270][629]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2072.72] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.05.12:273][629]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2072.72] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.05.12:273][629]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2072.72] Compile of PersistentLevel.LevelBP failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.05.12:348][629]LogSavePackage: Save=276.98ms
+[2017.09.06-00.05.12:348][629]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBPB821FE1D45F0F3A8553825A2D42C440C.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.05.12:354][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.05.12:386][629]LogFileHelpers: Saving map 'LevelBP' took 0.421
+[2017.09.06-00.06.11:579][628]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-00.06.12:389][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.06.12:615][693]LogSavePackage: Save=187.76ms
+[2017.09.06-00.06.12:615][693]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP93A8A17E4E2AE01F9CC38883378B2AD4.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.06.12:619][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.06.12:665][693]LogFileHelpers: Saving map 'LevelBP' took 0.355
+[2017.09.06-00.06.41:523][ 66]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-00.06.42:195][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.06.42:417][116]LogSavePackage: Save=190.60ms
+[2017.09.06-00.06.42:417][116]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP8E1A6FF445416DE15F5C909B1B2B2DCC.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.06.42:421][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.06.42:452][116]LogFileHelpers: Saving map 'LevelBP' took 0.331
+[2017.09.06-00.07.30:657][835]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-00.07.35:552][125]BlueprintLog: New page: Compile Sector
+[2017.09.06-00.07.38:068][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-00.07.38:102][380]LogSavePackage: Save=20.79ms
+[2017.09.06-00.07.38:102][380]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector897F262F46649A1FFE657F9AB32D2998.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-00.07.38:107][380]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-00.07.39:149][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.07.39:391][487]LogSavePackage: Save=209.76ms
+[2017.09.06-00.07.39:391][487]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBPA125E02E44C2AE758411F8B0190E89B1.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.07.39:395][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.07.39:429][487]LogFileHelpers: Saving map 'LevelBP' took 0.363
+[2017.09.06-00.07.40:378][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.07.40:624][591]LogSavePackage: Save=212.35ms
+[2017.09.06-00.07.40:624][591]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP56EE8CE2455EC5A7E3224986F8E8DB93.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.07.40:626][591]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.07.55:551][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RoomBoundries" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset" SILENT=true
+[2017.09.06-00.07.55:566][371]LogSavePackage: Save=7.75ms
+[2017.09.06-00.07.55:566][371]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/RoomBoundries03AAF871424F7C2E7FE914BD893C3C37.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset'
+[2017.09.06-00.07.55:568][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/RoomBoundries.uasset
+[2017.09.06-00.09.44:607][418]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-00.09.45:234][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.09.45:467][462]LogSavePackage: Save=204.09ms
+[2017.09.06-00.09.45:467][462]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP6F109161492891C0236E9B89CD38F73E.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.09.45:471][462]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.09.45:524][462]LogFileHelpers: Saving map 'LevelBP' took 0.364
+[2017.09.06-00.17.34:629][472]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-00.17.35:807][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.17.36:059][581]LogSavePackage: Save=214.82ms
+[2017.09.06-00.17.36:060][581]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBPFF715C584A63A0E2BF6FD8969FEBC1CD.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.17.36:065][581]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.17.36:112][581]LogFileHelpers: Saving map 'LevelBP' took 0.381
+[2017.09.06-00.18.18:233][545]BlueprintLog: New page: Compile Sector
+[2017.09.06-00.18.20:553][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-00.18.20:584][799]LogSavePackage: Save=19.22ms
+[2017.09.06-00.18.20:585][799]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/SectorE26190C340DB1F5545BACA887DD6305F.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-00.18.20:589][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-00.18.25:642][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.18.25:889][393]LogSavePackage: Save=216.19ms
+[2017.09.06-00.18.25:889][393]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP68A1F0374DE96C6507D0A5AE0B1ADC1A.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.18.25:894][393]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.20.16:112][448]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-00.20.16:126][448]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error Pin  New Sectors  named NewSectors doesn't match any parameters of function SplitSector
+[2017.09.06-00.20.16:357][448]BlueprintEditorCompileResults:Error: Error Pin  New Sectors  named NewSectors doesn't match any parameters of function SplitSector
+[2017.09.06-00.20.16:357][448]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2976.81] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 245 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.20.16:834][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.20.16:883][490]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error Pin  New Sectors  named NewSectors doesn't match any parameters of function SplitSector
+[2017.09.06-00.20.17:076][490]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2977.52] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 200 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.20.17:076][490]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2977.53] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.20.17:076][490]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2977.53] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.20.17:076][490]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2977.53] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.20.17:080][490]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2977.53] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 4 Warning(s) [in 3 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.20.17:080][490]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2977.53] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.20.17:181][490]LogSavePackage: Save=313.04ms
+[2017.09.06-00.20.17:181][490]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBPA369D15E414A901A464CEDB38B2CD5C9.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.20.17:196][490]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.20.17:241][490]LogFileHelpers: Saving map 'LevelBP' took 0.483
+[2017.09.06-00.20.24:965][394]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-00.20.24:980][394]LogBlueprint:Error: [Compiler PersistentLevel.LevelBP] Error Pin  Sectors  named Sectors doesn't match any parameters of function SplitSector
+[2017.09.06-00.20.25:201][394]BlueprintEditorCompileResults:Error: Error Pin  Sectors  named Sectors doesn't match any parameters of function SplitSector
+[2017.09.06-00.20.25:202][394]LogBlueprint:Warning: [Compiler PersistentLevel.LevelBP] Warning [2985.65] Compile of PersistentLevel.LevelBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 236 ms] (/Game/LevelBP.LevelBP:PersistentLevel.LevelBP)
+[2017.09.06-00.20.34:529][502]BlueprintLog: New page: Compile Sector
+[2017.09.06-00.20.35:191][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-00.20.35:217][545]LogSavePackage: Save=19.89ms
+[2017.09.06-00.20.35:217][545]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector309F7FC94F2C08A65B929D8C65A7EAED.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-00.20.35:221][545]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-00.20.39:631][ 66]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-00.20.40:243][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.20.40:492][108]LogSavePackage: Save=217.99ms
+[2017.09.06-00.20.40:492][108]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP70EBCFF741E8E4C7B253EABF00EFDE33.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.20.40:496][108]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.20.40:529][108]LogFileHelpers: Saving map 'LevelBP' took 0.359
+[2017.09.06-00.26.10:923][343]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-00.26.11:672][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-00.26.11:945][400]LogSavePackage: Save=235.72ms
+[2017.09.06-00.26.11:945][400]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP5D32C4AC4F02C5382BA21A96EDF0D270.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-00.26.11:951][400]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-00.26.11:999][400]LogFileHelpers: Saving map 'LevelBP' took 0.405
+[2017.09.06-00.45.31:690][916]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.06-00.45.58:027][ 40]BlueprintLog: New page: Compile Sector
+[2017.09.06-00.45.58:038][ 40]LogBlueprint:Error: [Compiler Sector] Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.09.06-00.45.58:039][ 40]LogBlueprint:Error: [Compiler Sector] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.45.58:039][ 40]LogBlueprint:Error: [Compiler Sector] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.45.58:281][ 40]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.09.06-00.45.58:281][ 40]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.45.58:281][ 40]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.06-00.45.58:281][ 40]LogBlueprint:Warning: [Compiler Sector] Warning [4518.73] Compile of Sector failed. 3 Fatal Issue(s) 0 Warning(s) [in 253 ms] (/Game/Sector.Sector)
+[2017.09.06-00.45.59:269][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-00.45.59:310][151]LogSavePackage: Save=27.49ms
+[2017.09.06-00.45.59:310][151]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/SectorC649F0EF4BEAA2B5A5BBB5974ABE064C.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-00.45.59:315][151]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-00.49.02:850][ 31]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.06-00.49.35:786][853]BlueprintLog: New page: Collapse to Macro
+[2017.09.06-00.49.42:764][679]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.09.06-00.49.50:534][546]BlueprintLog: New page: Collapse to Macro
+[2017.09.06-00.49.58:354][443]Cmd: TRANSACTION UNDO
+[2017.09.06-00.49.58:354][443]LogEditorTransaction: Undo Create Pin Link
+[2017.09.06-00.49.59:550][581]Cmd: TRANSACTION UNDO
+[2017.09.06-00.49.59:550][581]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.09.06-00.50.15:121][343]BlueprintLog: New page: Collapse to Macro
+[2017.09.06-00.57.23:940][191]BlueprintLog: New page: Compile Sector
+[2017.09.06-00.57.23:953][191]LogBlueprint:Error: [Compiler Sector] Error Variable node  Get Size  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.06-00.57.23:953][191]LogBlueprint:Error: [Compiler Sector] Error Variable node  Get Origin  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.06-00.57.23:954][191]LogBlueprint:Error: [Compiler Sector] Error Variable node  Get ChanceToSplit  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.06-00.57.24:215][191]BlueprintEditorCompileResults:Error: Error Variable node  Get Size  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.06-00.57.24:215][191]BlueprintEditorCompileResults:Error: Error Variable node  Get Origin  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.06-00.57.24:215][191]BlueprintEditorCompileResults:Error: Error Variable node  Get ChanceToSplit  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.06-00.57.24:215][191]LogBlueprint:Warning: [Compiler Sector] Warning [5204.66] Compile of Sector failed. 3 Fatal Issue(s) 0 Warning(s) [in 275 ms] (/Game/Sector.Sector)
+[2017.09.06-00.58.39:972][120]BlueprintLog: New page: Compile Sector
+[2017.09.06-00.58.42:369][365]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelBP' took 0.029
+[2017.09.06-00.58.42:371][365]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sector] ([1] browsable assets)...
+[2017.09.06-00.58.42:371][365]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sector]
+[2017.09.06-00.58.42:438][365]LogSavePackage: Save=53.62ms
+[2017.09.06-00.58.42:438][365]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector_Auto242B371EB468D4A0DD8FD0A9057517FFC.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto2.uasset'
+[2017.09.06-00.58.42:441][365]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto2.uasset
+[2017.09.06-00.58.42:441][365]LogFileHelpers: Auto-saving content packages took 0.071
+[2017.09.06-01.00.57:736][752]BlueprintLog: New page: Compile Sector
+[2017.09.06-01.00.58:373][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-01.00.58:456][797]LogSavePackage: Save=76.90ms
+[2017.09.06-01.00.58:457][797]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector534C1CAE464D27FAB12FA7A16C2338AE.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-01.00.58:462][797]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-01.01.32:283][768]BlueprintLog: New page: Compile Sector
+[2017.09.06-01.03.19:497][894]BlueprintLog: New page: Compile Sector
+[2017.09.06-01.03.20:069][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-01.03.20:196][931]LogSavePackage: Save=121.30ms
+[2017.09.06-01.03.20:196][931]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector2C0393B14689BB47CA1E19A5D2292AF3.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-01.03.20:200][931]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-01.08.42:369][219]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelBP' took 0.030
+[2017.09.06-01.08.42:370][219]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sector] ([1] browsable assets)...
+[2017.09.06-01.08.42:371][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sector]
+[2017.09.06-01.08.42:514][219]LogSavePackage: Save=130.05ms
+[2017.09.06-01.08.42:514][219]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector_Auto3303127394BD9646E8CD059A6557230AB.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto3.uasset'
+[2017.09.06-01.08.42:517][219]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto3.uasset
+[2017.09.06-01.08.42:517][219]LogFileHelpers: Auto-saving content packages took 0.147
+[2017.09.06-01.24.39:810][757]BlueprintLog: New page: Compile Sector
+[2017.09.06-01.24.40:913][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-01.24.41:074][855]LogSavePackage: Save=141.44ms
+[2017.09.06-01.24.41:075][855]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/SectorADC08004499748EFA5907F8BD809F105.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-01.24.41:080][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-01.36.27:743][661]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelBP' took 0.029
+[2017.09.06-01.36.27:745][661]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sector] ([1] browsable assets)...
+[2017.09.06-01.36.27:745][661]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sector]
+[2017.09.06-01.36.27:896][661]LogSavePackage: Save=136.23ms
+[2017.09.06-01.36.27:896][661]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector_Auto4B5F928C54EE383EB2E02EC8161A971E1.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto4.uasset'
+[2017.09.06-01.36.27:900][661]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto4.uasset
+[2017.09.06-01.36.27:900][661]LogFileHelpers: Auto-saving content packages took 0.155
+[2017.09.06-01.46.27:805][696]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelBP' took 0.030
+[2017.09.06-01.46.27:807][696]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sector] ([1] browsable assets)...
+[2017.09.06-01.46.27:807][696]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sector]
+[2017.09.06-01.46.27:967][696]LogSavePackage: Save=146.64ms
+[2017.09.06-01.46.27:967][696]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector_Auto56A91B26945C85950DA8D559B152C5F2C.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto5.uasset'
+[2017.09.06-01.46.27:970][696]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto5.uasset
+[2017.09.06-01.46.27:970][696]LogFileHelpers: Auto-saving content packages took 0.164
+[2017.09.06-02.01.49:073][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelBP' took 0.035
+[2017.09.06-02.01.49:076][ 48]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sector] ([1] browsable assets)...
+[2017.09.06-02.01.49:076][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sector]
+[2017.09.06-02.01.49:288][ 48]LogSavePackage: Save=198.45ms
+[2017.09.06-02.01.49:288][ 48]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector_Auto63933344F4DFDF4971E4208BBA1317F69.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto6.uasset'
+[2017.09.06-02.01.49:292][ 48]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto6.uasset
+[2017.09.06-02.01.49:292][ 48]LogFileHelpers: Auto-saving content packages took 0.217
+[2017.09.06-02.02.23:852][ 68]BlueprintLog: New page: Compile Sector
+[2017.09.06-02.02.24:747][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-02.02.24:994][133]LogSavePackage: Save=241.14ms
+[2017.09.06-02.02.24:994][133]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector4E24E3A64B633D4BD54EDFA93BAC11CF.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-02.02.24:999][133]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-02.06.00:029][ 51]BlueprintLog: New page: Compile Sector
+[2017.09.06-02.06.00:736][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-02.06.00:994][ 85]LogSavePackage: Save=251.27ms
+[2017.09.06-02.06.00:994][ 85]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector28D063594C4BB78F54D9D6B6F6B877FA.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-02.06.01:001][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-02.21.40:947][658]LogSavePackage: Save=250.19ms
+[2017.09.06-02.21.40:947][658]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP_Auto7480EB47949816C551C0CF58A995DF868.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/LevelBP_Auto7.umap'
+[2017.09.06-02.21.40:951][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/LevelBP_Auto7.umap
+[2017.09.06-02.21.40:954][658]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelBP' took 0.303
+[2017.09.06-02.21.40:954][658]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.303
+[2017.09.06-02.24.01:355][253]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-02.24.02:531][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-02.24.02:816][358]LogSavePackage: Save=250.87ms
+[2017.09.06-02.24.02:816][358]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP29424569479D8EE046A208B8006C9091.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-02.24.02:820][358]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-02.24.02:879][358]LogFileHelpers: Saving map 'LevelBP' took 0.429
+[2017.09.06-02.29.00:469][629]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-02.29.01:133][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-02.29.01:439][672]LogSavePackage: Save=263.45ms
+[2017.09.06-02.29.01:439][672]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP24C61E1648FB123F5D5266A9F5697D14.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-02.29.01:445][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-02.29.01:496][672]LogFileHelpers: Saving map 'LevelBP' took 0.444
+[2017.09.06-02.33.08:099][639]BlueprintLog: New page: Compile Sector
+[2017.09.06-02.33.08:794][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-02.33.09:072][677]LogSavePackage: Save=264.41ms
+[2017.09.06-02.33.09:072][677]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector5DD5D1F44889C32458590E80D1E01AEA.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-02.33.09:078][677]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-02.33.13:187][147]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.06-02.33.13:228][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.33.13:229][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-02.33.13:229][147]PIE: New page: PIE session: LevelBP (Sep 5, 2017, 12:33:13 PM)
+[2017.09.06-02.33.13:229][147]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelBP
+[2017.09.06-02.33.13:234][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004193s)
+[2017.09.06-02.33.13:236][147]LogAIModule: Creating AISystem for world LevelBP
+[2017.09.06-02.33.13:236][147]LogPlayLevel: PIE: World Init took: (0.002751s)
+[2017.09.06-02.33.13:237][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelBP.LevelBP to /Game/UEDPIE_0_LevelBP.LevelBP (0.007223s)
+[2017.09.06-02.33.13:279][147]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.06-02.33.13:290][147]LogInit: FAudioDevice initialized.
+[2017.09.06-02.33.13:335][147]LogLoad: Game class is 'GameModeBase'
+[2017.09.06-02.33.13:339][147]LogWorld: Bringing World /Game/UEDPIE_0_LevelBP.LevelBP up for play (max tick rate 0) at 2017.09.05-19.33.13
+[2017.09.06-02.33.13:340][147]LogWorld: Bringing up level for play took: 0.001441
+[2017.09.06-02.33.13:416][147]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 11 classes and 0 folders.
+[2017.09.06-02.33.13:418][147]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array TempSectorList of length 0!
+[2017.09.06-02.33.13:420][147]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	LevelBP_C /Game/UEDPIE_0_LevelBP.LevelBP:PersistentLevel.LevelBP_C_0
+	Function /Game/LevelBP.LevelBP_C:SplitSectors:0249
+[2017.09.06-02.33.13:420][147]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'SplitSectors' from node: Split Sector in graph: SplitSectors in object: LevelBP with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.09.06-02.33.13:421][147]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelBP 0.526
+[2017.09.06-02.33.13:421][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.33.17:976][679]Set new viewmode: Wireframe
+[2017.09.06-02.33.20:908][ 23]Set new viewmode: Wireframe
+[2017.09.06-02.33.21:387][ 80]Set new viewmode: Unlit
+[2017.09.06-02.33.25:894][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.33.25:932][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.48.19:837][852]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.06-02.48.19:862][852]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.48.19:862][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-02.48.19:862][852]PIE: New page: PIE session: LevelBP (Sep 5, 2017, 12:48:19 PM)
+[2017.09.06-02.48.19:862][852]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelBP
+[2017.09.06-02.48.19:867][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004277s)
+[2017.09.06-02.48.19:868][852]LogAIModule: Creating AISystem for world LevelBP
+[2017.09.06-02.48.19:868][852]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2017.09.06-02.48.19:868][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelBP.LevelBP to /Game/UEDPIE_0_LevelBP.LevelBP (0.005624s)
+[2017.09.06-02.48.19:908][852]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.06-02.48.19:918][852]LogInit: FAudioDevice initialized.
+[2017.09.06-02.48.20:001][852]LogLoad: Game class is 'GameModeBase'
+[2017.09.06-02.48.20:004][852]LogWorld: Bringing World /Game/UEDPIE_0_LevelBP.LevelBP up for play (max tick rate 0) at 2017.09.05-19.48.20
+[2017.09.06-02.48.20:005][852]LogWorld: Bringing up level for play took: 0.001362
+[2017.09.06-02.48.20:006][852]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array TempSectorList of length 0!
+[2017.09.06-02.48.20:006][852]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	LevelBP_C /Game/UEDPIE_0_LevelBP.LevelBP:PersistentLevel.LevelBP_C_0
+	Function /Game/LevelBP.LevelBP_C:SplitSectors:0249
+[2017.09.06-02.48.20:007][852]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'SplitSectors' from node: Split Sector in graph: SplitSectors in object: LevelBP with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.09.06-02.48.20:012][852]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelBP 1.117
+[2017.09.06-02.48.20:012][852]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.48.28:179][426]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.48.28:237][426]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.48.48:205][731]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.06-02.48.48:227][731]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.48.48:227][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.06-02.48.48:227][731]PIE: New page: PIE session: LevelBP (Sep 5, 2017, 12:48:48 PM)
+[2017.09.06-02.48.48:227][731]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_LevelBP
+[2017.09.06-02.48.48:231][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004243s)
+[2017.09.06-02.48.48:233][731]LogAIModule: Creating AISystem for world LevelBP
+[2017.09.06-02.48.48:233][731]LogPlayLevel: PIE: World Init took: (0.001383s)
+[2017.09.06-02.48.48:233][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelBP.LevelBP to /Game/UEDPIE_0_LevelBP.LevelBP (0.006040s)
+[2017.09.06-02.48.48:271][731]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.06-02.48.48:281][731]LogInit: FAudioDevice initialized.
+[2017.09.06-02.48.48:362][731]LogLoad: Game class is 'GameModeBase'
+[2017.09.06-02.48.48:366][731]LogWorld: Bringing World /Game/UEDPIE_0_LevelBP.LevelBP up for play (max tick rate 0) at 2017.09.05-19.48.48
+[2017.09.06-02.48.48:366][731]LogWorld: Bringing up level for play took: 0.001445
+[2017.09.06-02.48.48:367][731]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array TempSectorList of length 0!
+[2017.09.06-02.48.48:368][731]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_SplitSector', from offset 574
+[2017.09.06-02.48.48:368][731]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/LevelBP.LevelBP_C:ReceiveBeginPlay
+	Function /Game/LevelBP.LevelBP_C:ExecuteUbergraph_LevelBP
+	Function /Game/LevelBP.LevelBP_C:SplitSectors
+
+[2017.09.06-02.48.48:428][731]LogScriptCore:Warning: Cannot call UnrealScript (HUD /Game/UEDPIE_0_LevelBP.LevelBP:PersistentLevel.HUD_0 - Function /Script/Engine.HUD:ReceiveDrawHUD) while stopped at a breakpoint.
+[2017.09.06-02.48.55:843][731]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	LevelBP_C /Game/UEDPIE_0_LevelBP.LevelBP:PersistentLevel.LevelBP_C_0
+	Function /Game/LevelBP.LevelBP_C:SplitSectors:0249
+[2017.09.06-02.48.55:843][731]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'SplitSectors' from node: Split Sector in graph: SplitSectors in object: LevelBP with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.09.06-02.52.26:962][731]PIE: Info Play in editor start time for /Game/UEDPIE_0_LevelBP 218.067
+[2017.09.06-02.52.26:963][731]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.52.26:967][731]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.52.27:039][731]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/LevelBP.LevelBP:PersistentLevel' has LevelScriptBlueprint '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP' with GeneratedClass '/Game/LevelBP.LevelBP_C' with ClassGeneratedBy '/Game/LevelBP.LevelBP:PersistentLevel.LevelBP'
+[2017.09.06-02.52.30:467][ 51]LogSavePackage: Save=260.44ms
+[2017.09.06-02.52.30:467][ 51]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP_Auto8C6AFEA1B4D52DD63462179B4CC92E3DF.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/LevelBP_Auto8.umap'
+[2017.09.06-02.52.30:470][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/LevelBP_Auto8.umap
+[2017.09.06-02.52.30:473][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelBP' took 0.308
+[2017.09.06-02.52.30:473][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.308
+[2017.09.06-02.52.30:477][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sector] ([1] browsable assets)...
+[2017.09.06-02.52.30:477][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sector]
+[2017.09.06-02.52.30:757][ 51]LogSavePackage: Save=268.16ms
+[2017.09.06-02.52.30:757][ 51]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector_Auto8BE994EA9400071768F330BA298440F92.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto8.uasset'
+[2017.09.06-02.52.30:760][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto8.uasset
+[2017.09.06-02.52.30:760][ 51]LogFileHelpers: Auto-saving content packages took 0.285
+[2017.09.06-02.56.10:106][472]BlueprintLog: New page: Compile LevelBP
+[2017.09.06-02.56.10:912][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-02.56.11:225][530]LogSavePackage: Save=277.94ms
+[2017.09.06-02.56.11:225][530]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP63C561634A8E63E17FD53EA8A136AAAD.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-02.56.11:245][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-02.56.11:302][530]LogFileHelpers: Saving map 'LevelBP' took 0.475
+[2017.09.06-03.06.10:988][708]LogSavePackage: Save=266.90ms
+[2017.09.06-03.06.10:988][708]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP_Auto9065173DE429FE0D2274452AD00ECB777.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/LevelBP_Auto9.umap'
+[2017.09.06-03.06.10:991][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/LevelBP_Auto9.umap
+[2017.09.06-03.06.10:994][708]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelBP' took 0.320
+[2017.09.06-03.06.10:994][708]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.320
+[2017.09.06-03.06.10:996][708]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sector] ([1] browsable assets)...
+[2017.09.06-03.06.10:996][708]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sector]
+[2017.09.06-03.06.11:276][708]LogSavePackage: Save=265.32ms
+[2017.09.06-03.06.11:276][708]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector_Auto9355B82A845D14A3C885EB7A9BE48B5A0.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto9.uasset'
+[2017.09.06-03.06.11:278][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/Sector_Auto9.uasset
+[2017.09.06-03.06.11:278][708]LogFileHelpers: Auto-saving content packages took 0.283
+[2017.09.06-03.06.23:692][ 15]LogRenderer: Reallocating scene render targets to support 1616x1000 NumSamples 1 (Frame:1).
+[2017.09.06-03.06.27:040][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sector" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset" SILENT=true
+[2017.09.06-03.06.27:317][395]LogSavePackage: Save=270.36ms
+[2017.09.06-03.06.27:317][395]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Sector0FCFB296409F960547B0F7B0B6B2BA2B.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset'
+[2017.09.06-03.06.27:325][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Sector.uasset
+[2017.09.06-03.06.28:763][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-03.06.29:059][549]LogSavePackage: Save=261.23ms
+[2017.09.06-03.06.29:059][549]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP94A1FC2247F604D0558E71BEC58E4974.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-03.06.29:065][549]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-03.06.29:100][549]LogFileHelpers: Saving map 'LevelBP' took 0.419
+[2017.09.06-03.19.00:745][177]LogSavePackage: Save=304.00ms
+[2017.09.06-03.19.00:745][177]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBP_Auto090F389C542B31E1C28323390E705E904.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/LevelBP_Auto0.umap'
+[2017.09.06-03.19.00:748][177]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/LevelBP_Auto0.umap
+[2017.09.06-03.19.00:753][177]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/LevelBP' took 0.357
+[2017.09.06-03.19.00:753][177]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.357
+[2017.09.06-03.24.42:175][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LevelBP" FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-03.24.42:503][531]LogSavePackage: Save=281.44ms
+[2017.09.06-03.24.42:503][531]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/LevelBPF59F29B24DB73ED65619FF98D1D0B4BE.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap'
+[2017.09.06-03.24.42:508][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/LevelBP.umap
+[2017.09.06-03.24.42:555][531]LogFileHelpers: Saving map 'LevelBP' took 0.468
+[2017.09.06-03.24.43:040][586]BlueprintLog: New page: Compile LevelBP
