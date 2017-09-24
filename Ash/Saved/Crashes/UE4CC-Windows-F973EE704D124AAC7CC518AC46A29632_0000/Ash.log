@@ -1,0 +1,748 @@
+﻿Log file open, 09/23/17 22:26:48
+LogInit:Display: Running engine for game: Ash
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-911092292) SRandInit(-911092292).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.107700
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.24-05.26.48:849][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.24-05.26.48:849][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.24-05.26.48:870][  0]LogInit: Computer: DESKTOP-HKS75NM
+[2017.09.24-05.26.48:870][  0]LogInit: User: StevenStrickland
+[2017.09.24-05.26.48:870][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.24-05.26.48:870][  0]LogInit: High frequency timer resolution =3.924229 MHz
+[2017.09.24-05.26.48:870][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.09.24-05.26.48:870][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.24-05.26.48:870][  0]LogMemory: Process Physical Memory: 273.89 MB used, 273.89 MB peak
+[2017.09.24-05.26.48:870][  0]LogMemory: Process Virtual Memory: 260.81 MB used, 260.81 MB peak
+[2017.09.24-05.26.48:870][  0]LogMemory: Physical Memory: 6116.93 MB used,  10231.70 MB free, 16348.63 MB total
+[2017.09.24-05.26.48:870][  0]LogMemory: Virtual Memory: 643.02 MB used,  10231.70 MB free, 134217728.00 MB total
+[2017.09.24-05.26.49:012][  0]LogInit: Using OS detected language (en-US).
+[2017.09.24-05.26.49:012][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.24-05.26.49:016][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.24-05.26.50:155][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.24-05.26.50:705][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.09.24-05.26.50:705][  0]LogD3D11RHI:       4060/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.24-05.26.50:707][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.24-05.26.50:707][  0]LogD3D11RHI:       0/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.24-05.26.50:707][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.24-05.26.50:715][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.24-05.26.50:715][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.24-05.26.50:715][  0]LogWindows: EnumDisplayDevices:
+[2017.09.24-05.26.50:716][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2017.09.24-05.26.50:716][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.09.24-05.26.50:716][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.09.24-05.26.50:716][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.09.24-05.26.50:716][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.24-05.26.50:716][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.09.24-05.26.50:716][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.09.24-05.26.50:716][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.09.24-05.26.50:716][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.24-05.26.51:224][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.24-05.26.51:260][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.24-05.26.51:311][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Intermediate/Shaders/WorkingDirectory/4076/).
+[2017.09.24-05.26.51:311][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Steven Strickland/AppData/Local/Temp/UnrealShaderWorkingDir/ACA776524A0226CC65DD3EB45A1666F5/'.
+[2017.09.24-05.26.51:311][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.24-05.26.52:815][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.24-05.26.52:906][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.24-05.26.52:998][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.24-05.26.53:088][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.24-05.26.53:181][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.24-05.26.53:273][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.24-05.26.53:362][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.24-05.26.53:452][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.24-05.26.53:533][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.24-05.26.53:622][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.24-05.26.53:711][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.24-05.26.53:800][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.24-05.26.53:887][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.24-05.26.53:976][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.24-05.26.54:064][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.24-05.26.54:244][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.24-05.26.54:244][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.24-05.26.54:319][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.24-05.26.54:472][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.24-05.26.54:526][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.24-05.26.54:615][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.24-05.26.54:703][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.24-05.26.54:791][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.24-05.26.54:881][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.24-05.26.54:881][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.24-05.26.55:809][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.24-05.26.55:975][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/Steven Strickland/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.24-05.26.55:975][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Steven Strickland/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.24-05.26.55:975][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.24-05.26.55:975][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.24-05.26.55:975][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.24-05.26.55:975][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.24-05.26.55:996][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.24-05.26.56:008][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Steven Strickland/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.24-05.26.56:024][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.24-05.26.56:024][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.24-05.26.56:025][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.24-05.26.56:025][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.24-05.26.56:468][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.24-05.26.56:589][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.24-05.26.56:836][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.24-05.26.56:922][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.24-05.26.57:009][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.24-05.26.57:009][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.24-05.26.57:009][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.24-05.26.57:840][  0]LogNetVersion: Ash , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1656355737)
+[2017.09.24-05.26.57:928][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.09.24-05.26.58:031][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.052819 seconds
+[2017.09.24-05.26.58:038][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.24-05.26.58:038][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.24-05.26.58:038][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.24-05.26.58:168][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.24-05.27.01:933][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.24-05.27.01:999][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.24-05.27.02:880][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.24-05.27.03:547][  0]SourceControl: Info Source control is disabled
+[2017.09.24-05.27.03:592][  0]SourceControl: Info Source control is disabled
+[2017.09.24-05.27.03:683][  0]SourceControl: Info Source control is disabled
+[2017.09.24-05.27.03:770][  0]SourceControl: Info Source control is disabled
+[2017.09.24-05.27.05:010][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.24-05.27.06:057][  0]LogEngine: Initializing Engine...
+[2017.09.24-05.27.06:058][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.24-05.27.06:322][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.24-05.27.06:322][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.24-05.27.06:555][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.24-05.27.06:573][  0]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-05.27.06:588][  0]LogInit: FAudioDevice initialized.
+[2017.09.24-05.27.06:664][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/Steven Strickland/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.24-05.27.06:695][  0]LogInit: Texture streaming: Enabled
+[2017.09.24-05.27.06:884][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.24-05.27.07:284][  0]LogInit: Transaction tracking system initialized
+[2017.09.24-05.27.07:869][  0]BlueprintLog: New page: Editor Load
+[2017.09.24-05.27.09:615][  0]LocalizationService: Info Localization service is disabled
+[2017.09.24-05.27.10:878][  0]LogConsoleResponse:Display: 
+[2017.09.24-05.27.11:090][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.24-05.27.11:090][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.24-05.27.11:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/' took 0.03s
+[2017.09.24-05.27.12:992][  0]SourceControl: Info Source control is disabled
+[2017.09.24-05.27.12:992][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.24-05.27.12:993][  0]LightingResults: New page: Lighting Build
+[2017.09.24-05.27.13:069][  0]MapCheck: New page: Map Check
+[2017.09.24-05.27.13:069][  0]LightingResults: New page: Lighting Build
+[2017.09.24-05.27.13:345][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.24-05.27.13:346][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.09.24-05.27.13:352][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.24-05.27.13:373][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.24-05.27.13:448][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.149ms to complete.
+[2017.09.24-05.27.13:448][  0]LogFileHelpers: Loading map 'Template_Default' took 0.455
+[2017.09.24-05.27.13:706][  0]LogCollectionManager: Loaded 0 collections in 0.002431 seconds
+[2017.09.24-05.27.13:843][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Collections/' took 0.01s
+[2017.09.24-05.27.13:843][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Developers/StevenStrickland/Collections/' took 0.01s
+[2017.09.24-05.27.13:843][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/Collections/' took 0.01s
+[2017.09.24-05.27.13:843][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.09.24-05.27.13:858][  0]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 2329 classes and 491 folders.
+[2017.09.24-05.27.13:985][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.24-05.27.14:415][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.24-05.27.14:505][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.24-05.27.14:604][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.24-05.27.14:613][  0]LogSlate: Took 0.000470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.24-05.27.14:616][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.24-05.27.14:631][  0]LogSlate: Took 0.007062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.24-05.27.14:828][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:1).
+[2017.09.24-05.27.15:017][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.24-05.27.15:129][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.09.24-05.27.15:129][  0]LogLoad: (Engine Initialization) Total time: 28.77 seconds
+[2017.09.24-05.27.15:129][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.09.24-05.27.15:129][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.24-05.27.15:143][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.24-05.27.15:145][  0]LogOcInput: OculusInput pre-init called
+[2017.09.24-05.27.15:145][  0]LogHMD: Starting GearVRController plugin
+[2017.09.24-05.27.15:178][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.24-05.27.15:240][  1]LogAssetRegistry: Asset discovery search completed in 17.3340 seconds
+[2017.09.24-05.27.15:242][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.24-05.27.15:242][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2017.09.24-05.27.16:200][106]LogSlate: Took 0.006478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.24-05.27.18:857][420]LogLinker:Warning: Can't resolve asset name
+[2017.09.24-05.27.18:875][420]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.24-05.27.19:519][420]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 112 classes and 0 folders.
+[2017.09.24-05.27.20:324][420]LogSlate: Took 0.004808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.24-05.27.24:620][873]LogAIModule: Creating AISystem for world TestLevel
+[2017.09.24-05.27.24:662][873]Cmd: MAP LOAD FILE="../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.24-05.27.24:662][873]LightingResults: New page: Lighting Build
+[2017.09.24-05.27.24:663][873]LoadErrors: New page: Loading map: TestLevel.umap
+[2017.09.24-05.27.24:664][873]MapCheck: New page: Map Check
+[2017.09.24-05.27.24:664][873]LightingResults: New page: Lighting Build
+[2017.09.24-05.27.24:693][873]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.24-05.27.24:753][873]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.24-05.27.24:836][873]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.821ms to complete.
+[2017.09.24-05.27.24:837][873]LogFileHelpers: Loading map 'TestLevel' took 0.176
+[2017.09.24-05.27.35:275][ 18]LogSlate: Took 0.005823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.24-05.28.02:898][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:898][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:898][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:02F2
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0369
+[2017.09.24-05.28.02:898][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:05F3
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0698
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0758
+[2017.09.24-05.28.02:898][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0A8A
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0B01
+[2017.09.24-05.28.02:898][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0D8B
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0E30
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0EF0
+[2017.09.24-05.28.02:898][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:898][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0A8A
+[2017.09.24-05.28.02:899][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0B01
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0D8B
+[2017.09.24-05.28.02:899][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0E30
+[2017.09.24-05.28.02:899][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0EF0
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:02F2
+[2017.09.24-05.28.02:899][720]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Sector_C /Engine/Transient.World_2:PersistentLevel.Sector_C_0
+	Function /Game/Sector.Sector_C:Split:0369
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.28.02:899][720]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Sector_C)
+[2017.09.24-05.37.31:878][753]LogSavePackage: Save=426.78ms
+[2017.09.24-05.37.31:878][753]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/TestLevel_Auto19E1A6E2346D974D855086B8D2C06F8FC.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/TestLevel_Auto1.umap'
+[2017.09.24-05.37.31:881][753]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/Autosaves/Game/TestLevel_Auto1.umap
+[2017.09.24-05.37.31:884][753]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestLevel' took 0.520
+[2017.09.24-05.37.31:884][753]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.520
+[2017.09.24-05.40.40:778][ 96]BlueprintLog: New page: Compile TestLevel
+[2017.09.24-05.40.46:594][651]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-05.40.46:639][651]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.40.46:639][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-05.40.46:640][651]PIE: New page: PIE session: TestLevel (Sep 23, 2017, 3:40:46 PM)
+[2017.09.24-05.40.46:641][651]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2017.09.24-05.40.46:648][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007343s)
+[2017.09.24-05.40.46:649][651]LogAIModule: Creating AISystem for world TestLevel
+[2017.09.24-05.40.46:649][651]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2017.09.24-05.40.46:649][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.008486s)
+[2017.09.24-05.40.46:688][651]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-05.40.46:699][651]LogInit: FAudioDevice initialized.
+[2017.09.24-05.40.46:811][651]LogLoad: Game class is 'GameModeBase'
+[2017.09.24-05.40.46:816][651]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.09.23-22.40.46
+[2017.09.24-05.40.46:816][651]LogWorld: Bringing up level for play took: 0.001523
+[2017.09.24-05.40.46:902][651]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.09.24-05.40.46:904][651]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_FunctionResult', from offset 185
+[2017.09.24-05.40.46:904][651]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.40.46:990][651]LogScriptCore:Warning: Cannot call UnrealScript (HUD /Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.HUD_0 - Function /Script/Engine.HUD:ReceiveDrawHUD) while stopped at a breakpoint.
+[2017.09.24-05.40.59:051][651]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 13.091
+[2017.09.24-05.40.59:051][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.41.00:969][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.41.01:039][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.41.06:486][463]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-05.41.06:506][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.41.06:506][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-05.41.06:506][463]PIE: New page: PIE session: TestLevel (Sep 23, 2017, 3:41:06 PM)
+[2017.09.24-05.41.06:506][463]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2017.09.24-05.41.06:513][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006790s)
+[2017.09.24-05.41.06:514][463]LogAIModule: Creating AISystem for world TestLevel
+[2017.09.24-05.41.06:514][463]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2017.09.24-05.41.06:514][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.008074s)
+[2017.09.24-05.41.06:549][463]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-05.41.06:557][463]LogInit: FAudioDevice initialized.
+[2017.09.24-05.41.06:636][463]LogLoad: Game class is 'GameModeBase'
+[2017.09.24-05.41.06:639][463]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.09.23-22.41.06
+[2017.09.24-05.41.06:639][463]LogWorld: Bringing up level for play took: 0.001010
+[2017.09.24-05.41.06:640][463]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.41.06:640][463]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.41.06:722][463]LogScriptCore:Warning: Cannot call UnrealScript (HUD /Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.HUD_0 - Function /Script/Engine.HUD:ReceiveDrawHUD) while stopped at a breakpoint.
+[2017.09.24-05.41.10:629][463]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_FunctionResult', from offset 185
+[2017.09.24-05.41.10:629][463]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.41.45:313][463]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 39.353
+[2017.09.24-05.41.45:313][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.41.45:318][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.41.45:385][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.42.00:180][149]BlueprintLog: New page: Compile TestLevel
+[2017.09.24-05.42.01:773][308]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-05.42.01:793][308]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.42.01:793][308]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-05.42.01:793][308]PIE: New page: PIE session: TestLevel (Sep 23, 2017, 3:42:01 PM)
+[2017.09.24-05.42.01:793][308]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2017.09.24-05.42.01:799][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006509s)
+[2017.09.24-05.42.01:800][308]LogAIModule: Creating AISystem for world TestLevel
+[2017.09.24-05.42.01:801][308]LogPlayLevel: PIE: World Init took: (0.001147s)
+[2017.09.24-05.42.01:801][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.007936s)
+[2017.09.24-05.42.01:837][308]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-05.42.01:845][308]LogInit: FAudioDevice initialized.
+[2017.09.24-05.42.01:923][308]LogLoad: Game class is 'GameModeBase'
+[2017.09.24-05.42.01:926][308]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.09.23-22.42.01
+[2017.09.24-05.42.01:926][308]LogWorld: Bringing up level for play took: 0.001254
+[2017.09.24-05.42.01:927][308]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.42.01:927][308]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.42.02:011][308]LogScriptCore:Warning: Cannot call UnrealScript (HUD /Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.HUD_0 - Function /Script/Engine.HUD:ReceiveDrawHUD) while stopped at a breakpoint.
+[2017.09.24-05.42.04:317][308]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.42.04:317][308]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.42.05:680][308]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.42.05:680][308]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.42.06:117][308]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.42.06:117][308]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.42.06:627][308]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.42.06:627][308]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.42.07:104][308]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.42.07:104][308]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.42.11:519][308]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.42.11:519][308]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.42.18:431][308]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.42.18:431][308]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.42.19:404][308]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_Array_Add', from offset 488
+[2017.09.24-05.42.19:404][308]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.42.58:156][308]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	TestLevel_C /Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.TestLevel_C_0
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split:00B2
+[2017.09.24-05.42.58:156][308]PIE:Error: Error Infinite Loop detected in  TestLevel , asserted during  WhileLoop with the following  Call Stack
+[2017.09.24-05.42.58:176][308]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 56.216
+[2017.09.24-05.42.58:176][308]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.42.58:180][308]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.42.58:251][308]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.43.08:015][425]BlueprintLog: New page: Compile TestLevel
+[2017.09.24-05.43.09:357][488]LogSavePackage: Save=442.92ms
+[2017.09.24-05.43.09:357][488]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/TestLevel678E208E4EC47FDD7E77E0A9305EF35B.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/TestLevel.umap'
+[2017.09.24-05.43.09:366][488]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/TestLevel.umap
+[2017.09.24-05.43.09:412][488]LogFileHelpers: Saving map 'TestLevel' took 0.636
+[2017.09.24-05.43.10:105][565]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-05.43.10:125][565]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.43.10:125][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-05.43.10:125][565]PIE: New page: PIE session: TestLevel (Sep 23, 2017, 3:43:10 PM)
+[2017.09.24-05.43.10:125][565]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2017.09.24-05.43.10:132][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006858s)
+[2017.09.24-05.43.10:133][565]LogAIModule: Creating AISystem for world TestLevel
+[2017.09.24-05.43.10:133][565]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2017.09.24-05.43.10:133][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.007969s)
+[2017.09.24-05.43.10:168][565]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-05.43.10:176][565]LogInit: FAudioDevice initialized.
+[2017.09.24-05.43.10:253][565]LogLoad: Game class is 'GameModeBase'
+[2017.09.24-05.43.10:256][565]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.09.23-22.43.10
+[2017.09.24-05.43.10:256][565]LogWorld: Bringing up level for play took: 0.001002
+[2017.09.24-05.43.10:257][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.10:257][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.10:340][565]LogScriptCore:Warning: Cannot call UnrealScript (HUD /Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.HUD_0 - Function /Script/Engine.HUD:ReceiveDrawHUD) while stopped at a breakpoint.
+[2017.09.24-05.43.12:150][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.12:150][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.12:829][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.12:829][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.13:478][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.13:478][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.13:957][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.13:958][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.14:576][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.14:576][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.15:396][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.15:396][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.15:921][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.15:921][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.16:467][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.16:467][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.17:111][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_Array_Add', from offset 488
+[2017.09.24-05.43.17:111][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.21:416][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.21:416][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.25:213][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.25:213][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.25:883][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.25:883][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.26:332][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_Array_Add', from offset 488
+[2017.09.24-05.43.26:332][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.27:815][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.27:815][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.36:940][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_Array_Add', from offset 488
+[2017.09.24-05.43.36:940][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.38:636][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.38:636][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.39:676][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.39:676][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.40:188][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.40:188][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.40:589][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.40:589][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.41:007][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.41:007][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.41:423][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.41:423][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.41:933][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_Array_Add', from offset 488
+[2017.09.24-05.43.41:933][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.42:777][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.42:777][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.48:541][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_Array_Add', from offset 488
+[2017.09.24-05.43.48:541][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.43.49:274][565]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 310
+[2017.09.24-05.43.49:274][565]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.44.19:900][565]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	TestLevel_C /Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.TestLevel_C_0
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split:00B2
+[2017.09.24-05.44.19:900][565]PIE:Error: Error Infinite Loop detected in  TestLevel , asserted during  WhileLoop with the following  Call Stack
+[2017.09.24-05.44.19:921][565]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 69.96
+[2017.09.24-05.44.19:921][565]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.44.19:925][565]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.44.20:000][565]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.44.24:466][ 64]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-05.44.24:486][ 64]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.44.24:486][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-05.44.24:486][ 64]PIE: New page: PIE session: TestLevel (Sep 23, 2017, 3:44:24 PM)
+[2017.09.24-05.44.24:486][ 64]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2017.09.24-05.44.24:493][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006892s)
+[2017.09.24-05.44.24:494][ 64]LogAIModule: Creating AISystem for world TestLevel
+[2017.09.24-05.44.24:494][ 64]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2017.09.24-05.44.24:494][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.007948s)
+[2017.09.24-05.44.24:528][ 64]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-05.44.24:537][ 64]LogInit: FAudioDevice initialized.
+[2017.09.24-05.44.24:614][ 64]LogLoad: Game class is 'GameModeBase'
+[2017.09.24-05.44.24:617][ 64]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.09.23-22.44.24
+[2017.09.24-05.44.24:617][ 64]LogWorld: Bringing up level for play took: 0.000985
+[2017.09.24-05.44.45:287][ 64]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	TestLevel_C /Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.TestLevel_C_0
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split:00A5
+[2017.09.24-05.44.45:287][ 64]PIE:Error: Error Infinite Loop detected in  TestLevel , asserted during  WhileLoop with the following  Call Stack
+[2017.09.24-05.44.45:294][ 64]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 21.334
+[2017.09.24-05.44.45:294][ 64]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.44.45:298][ 64]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.44.45:371][ 64]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.47.06:468][616]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.09.24-05.47.13:553][412]BlueprintLog: New page: Collapse to Macro
+[2017.09.24-05.47.15:100][589]LogEditorTransaction: Undo Collapses selected nodes into a single node
+[2017.09.24-05.47.37:260][162]BlueprintLog: New page: Compile TestLevel
+[2017.09.24-05.49.10:468][859]LogSavePackage: Save=434.52ms
+[2017.09.24-05.49.10:468][859]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/TestLevel26A59ED14104D7752B7189B211AD4BA7.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/TestLevel.umap'
+[2017.09.24-05.49.10:474][859]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/TestLevel.umap
+[2017.09.24-05.49.10:533][859]LogFileHelpers: Saving map 'TestLevel' took 0.639
+[2017.09.24-05.49.12:314][ 59]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-05.49.12:334][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.49.12:334][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-05.49.12:334][ 59]PIE: New page: PIE session: TestLevel (Sep 23, 2017, 3:49:12 PM)
+[2017.09.24-05.49.12:334][ 59]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2017.09.24-05.49.12:340][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006454s)
+[2017.09.24-05.49.12:342][ 59]LogAIModule: Creating AISystem for world TestLevel
+[2017.09.24-05.49.12:342][ 59]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2017.09.24-05.49.12:342][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.007937s)
+[2017.09.24-05.49.12:381][ 59]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-05.49.12:389][ 59]LogInit: FAudioDevice initialized.
+[2017.09.24-05.49.12:468][ 59]LogLoad: Game class is 'GameModeBase'
+[2017.09.24-05.49.12:471][ 59]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.09.23-22.49.12
+[2017.09.24-05.49.12:471][ 59]LogWorld: Bringing up level for play took: 0.001123
+[2017.09.24-05.49.21:451][ 59]LogScript:Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	TestLevel_C /Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.TestLevel_C_0
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split:00B2
+[2017.09.24-05.49.21:451][ 59]PIE:Error: Error Infinite Loop detected in  TestLevel , asserted during  WhileLoop with the following  Call Stack
+[2017.09.24-05.49.21:457][ 59]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 9.497
+[2017.09.24-05.49.21:458][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.49.21:462][ 59]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.49.21:538][ 59]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.54.48:935][975]BlueprintLog: New page: Compile TestLevel
+[2017.09.24-05.54.58:095][960]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.24-05.54.58:115][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2017.09.24-05.54.58:115][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.24-05.54.58:116][960]PIE: New page: PIE session: TestLevel (Sep 23, 2017, 3:54:58 PM)
+[2017.09.24-05.54.58:116][960]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2017.09.24-05.54.58:122][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006392s)
+[2017.09.24-05.54.58:123][960]LogAIModule: Creating AISystem for world TestLevel
+[2017.09.24-05.54.58:123][960]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.09.24-05.54.58:123][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.007505s)
+[2017.09.24-05.54.58:162][960]LogInit: XAudio2 using 'G257HU-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.24-05.54.58:171][960]LogInit: FAudioDevice initialized.
+[2017.09.24-05.54.58:252][960]LogLoad: Game class is 'GameModeBase'
+[2017.09.24-05.54.58:255][960]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2017.09.23-22.54.58
+[2017.09.24-05.54.58:255][960]LogWorld: Bringing up level for play took: 0.001108
+[2017.09.24-05.54.58:256][960]LogBlueprintDebug:Warning: Unknown breakpoint hit at node K2Node_AssignmentStatement in object Function /Game/TestLevel.TestLevel_C:Recursive_Split:00DB
+[2017.09.24-05.54.58:561][960]LogScriptCore:Warning: Cannot call UnrealScript (HUD /Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.HUD_0 - Function /Script/Engine.HUD:ReceiveDrawHUD) while stopped at a breakpoint.
+[2017.09.24-05.55.04:258][960]LogBlueprintDebug:Warning: Unknown breakpoint hit at node K2Node_AssignmentStatement in object Function /Game/TestLevel.TestLevel_C:Recursive_Split:00DB
+[2017.09.24-05.55.06:020][960]LogBlueprintDebug:Warning: Unknown breakpoint hit at node K2Node_AssignmentStatement in object Function /Game/TestLevel.TestLevel_C:Recursive_Split:00DB
+[2017.09.24-05.55.11:893][960]LogBlueprintDebug:Warning: Unknown breakpoint hit at node K2Node_AssignmentStatement in object Function /Game/TestLevel.TestLevel_C:Recursive_Split:00DB
+[2017.09.24-05.55.25:618][960]LogBlueprintDebug:Warning: Unknown breakpoint hit at node K2Node_AssignmentStatement in object Function /Game/TestLevel.TestLevel_C:Recursive_Split:00DB
+[2017.09.24-05.55.26:727][960]LogBlueprintDebug:Warning: Unknown breakpoint hit at node K2Node_AssignmentStatement in object Function /Game/TestLevel.TestLevel_C:Recursive_Split:00DB
+[2017.09.24-05.55.27:147][960]LogBlueprintDebug:Warning: Unknown breakpoint hit at node K2Node_AssignmentStatement in object Function /Game/TestLevel.TestLevel_C:Recursive_Split:00DB
+[2017.09.24-05.55.27:510][960]LogBlueprintDebug:Warning: Unknown breakpoint hit at node K2Node_AssignmentStatement in object Function /Game/TestLevel.TestLevel_C:Recursive_Split:00DB
+[2017.09.24-05.55.27:829][960]LogBlueprintDebug:Warning: Unknown breakpoint hit at node K2Node_AssignmentStatement in object Function /Game/TestLevel.TestLevel_C:Recursive_Split:00DB
+[2017.09.24-05.55.28:140][960]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_FunctionResult', from offset 185
+[2017.09.24-05.55.28:140][960]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TestLevel.TestLevel_C:ReceiveBeginPlay
+	Function /Game/TestLevel.TestLevel_C:ExecuteUbergraph_TestLevel
+	Function /Game/TestLevel.TestLevel_C:Recursive_Split
+
+[2017.09.24-05.55.29:023][960]LogSavePackage: Save=443.80ms
+[2017.09.24-05.55.29:023][960]LogSavePackage: Moving '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Saved/TestLevel2958063A4CF920F4127691BAA6A73BCB.tmp' to '../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/TestLevel.umap'
+[2017.09.24-05.55.29:029][960]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Steven Strickland/Documents/Unreal Projects/Ash/ProjectAsh/Ash/Content/TestLevel.umap
+[2017.09.24-05.55.29:062][960]LogFileHelpers: Saving map 'TestLevel' took 0.622
